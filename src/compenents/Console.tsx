@@ -15,7 +15,7 @@ const Console = () => {
     if(awayTimeout < 2){
         awayTOBtnColor = "btn btn-outline-danger border-5"
     }
-    if(posession == true){
+    if(posession === true){
         posessionTxt = "<- Home"
         posessionBtn = "btn btn-primary border-2 btn-lg"
     }

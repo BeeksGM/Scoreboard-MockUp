@@ -6,9 +6,9 @@ const Header = () => {
     <header>
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <button className="navbar-brand">
             SCOREBOARD.IO
-          </a>
+          </button>
           <button
             className="navbar-toggler"
             type="button"
@@ -26,9 +26,9 @@ const Header = () => {
           >
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <button className="nav-link active" aria-current="page">
                   Home
-                </a>
+                </button>
               </li>
             </ul>
           </div>
